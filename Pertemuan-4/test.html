@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        font-size: 20px;
+        gap: 30px;
+        background-color: rgb(61, 61, 245);
+      }
+      nav a {
+        text-decoration: none;
+        color: white;
+      }
+      nav a:hover {
+        color: rgb(172, 182, 190);
+      }
+      .about {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        height: 400px;
+        width: 100%;
+      }
+      .skill {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        height: 400px;
+        width: 100%;
+        align-items: center;
+        background-color: rgb(214, 214, 214);
+      }
+      .skill .img {
+        width: 250px;
+      }
+      .about .text {
+        width: 500px;
+        font-size: 20px;
+      }
+      .about .img {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div><a href="#">Home</a></div>
+      <div><a href="#about">About</a></div>
+      <div><a href="#skill">Skill</a></div>
+    </nav>
+    <main>
+      <div class="about" id="about">
+        <div class="text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ipsum doloremque repellat veritatis veniam nisi. Iure vel sunt corporis minima doloribus error non, nulla tempore repellat rerum delectus atque illum commodi harum
+          temporibus pariatur voluptates culpa. Aut, amet recusandae. Ad ipsum officiis pariatur fugit itaque ab, reprehenderit adipisci repellendus dolores.
+        </div>
+        <div class="img"><img src="g-1.jpeg" alt="" width="100%" /></div>
+      </div>
+
+      <div class="skill" id="skill">
+        <div class="img"><img src="g-1.jpeg" alt="" width="100%" /></div>
+        <div class="img"><img src="g-1.jpeg" alt="" width="100%" /></div>
+        <div class="img"><img src="g-1.jpeg" alt="" width="100%" /></div>
+        <div class="img"><img src="g-1.jpeg" alt="" width="100%" /></div>
+      </div>
+    </main>
+  </body>
+</html>
